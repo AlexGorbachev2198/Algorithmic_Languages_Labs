@@ -2,7 +2,7 @@
 
 int main() {
     int R,X,Y,X1,Y1;
-    std::cout << "Введите радус окружности:"<< std::endl; std::cin >> R;
+    std::cout << "Введите радиус окружности:"<< std::endl; std::cin >> R;
     if(R <= 0)
     {
         while(R <= 0)
@@ -13,7 +13,7 @@ int main() {
     std::cout << "Введите X центра:"<< std::endl; std::cin >> X;
     std::cout << "Введите Y центра:"<< std::endl; std::cin >> Y;
     std::cout << "Введите X точки:"<< std::endl; std::cin >> X1;
-    std::cout << "Введите Y точки:0"<< std::endl; std::cin >> Y1; //Ввод значений
+    std::cout << "Введите Y точки:"<< std::endl; std::cin >> Y1; //Ввод значений
     if(X1 <= X + R)
     {
         if(X1 >= X - R)
